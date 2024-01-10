@@ -37,7 +37,7 @@ public class IndexController {
 	@GetMapping("/detalles")
 	public String detalles(Model model) {
 		
-	    model.addAttribute("titulo", "Destalles de los citios cercanos");
+	    model.addAttribute("titulo", "Citios de Interes");
 		
 		return "detalles";
 	}
